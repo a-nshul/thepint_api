@@ -69,7 +69,7 @@ This is an e-commerce backend project that provides essential APIs and cron jobs
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ecommerce-api.git
+git clone https://github.com/a-nshul/thepint_api.git
 cd ecommerce-api
 
 
