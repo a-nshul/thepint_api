@@ -70,7 +70,7 @@ This is an e-commerce backend project that provides essential APIs and cron jobs
 
 ```bash
 git clone https://github.com/a-nshul/thepint_api.git
-cd ecommerce-api
+cd thepint_api
 
 
 ### 2. install npm 
