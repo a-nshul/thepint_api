@@ -143,7 +143,7 @@ const deleteOrder = async (req, res) => {
       await Product.findByIdAndUpdate(item.product, { $inc: { stock: item.quantity } });
     }
 
-    await order.remove();
+    await Order.deleteOne({ _id: id }); // Delete the order
     res.status(200).json({ success: true, message: 'Order deleted successfully' });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Error deleting order', error: error.message });
